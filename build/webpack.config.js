@@ -17,13 +17,12 @@ module.exports = {
     hash: 6,
     data: {
       cdn_ionicons: 'http://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.css',
-
     }
   },
   devServer: {
-    port: 80,
+    //port: 80,
     hot: true,
-    host: '192.168.10.164',
+    //host: '192.168.10.164',
     stats: 'errors-only',
     proxy: {
 

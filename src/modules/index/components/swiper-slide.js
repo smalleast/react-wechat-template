@@ -19,7 +19,7 @@ export default class extends React.Component {
           beforeChange={(from, to) => console.log(`slide from ${from} to ${to}`)}
           afterChange={index => console.log('slide to', index)}>
           {list && list.map((item, index) => (
-            <RA key={index} url={`http://oss.zhulogic.com/${item}`} size="7.5rem" radius="0"/>
+            <RA key={index} url={`${item}`} size="7.5rem" radius="0"/>
           ))}
         </Carousel>
       </section>
